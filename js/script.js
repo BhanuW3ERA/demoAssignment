@@ -1,5 +1,27 @@
 
 
+// function changeBackgroundImage(newImageUrl) {
+//     $('.hero_section').fadeOut(1000, function() {
+//         $(this).css('hero_section', 'url(' +' ../images/8.png '+ ')').fadeIn(1000);
+//     });
+// }
+
+// setTimeout(function() {
+//     changeBackgroundImage('../images/8.png');
+// }, 10000); // Change after 10 seconds
+
+// setTimeout(function() {
+//     changeBackgroundImage('../images/9.png');
+// }, 20000); // Change after 20 seconds
+
+// setTimeout(function() {
+//     changeBackgroundImage('../images/7.png');
+// }, 30000); // Change after 30 seconds
+
+
+
+
+
 $("#hmbrgr").click(function(){
     $("#sidebarUl").addClass("open_sidebar");
     $("#sidebarUl").removeClass("close_sidebar")
